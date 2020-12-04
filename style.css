@@ -8,6 +8,7 @@
 } 
 
 li, a {
+    width: auto;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -28,15 +29,21 @@ header {
 }
 
 .para {
-    font-size: 100px;
+    font-size: 90px;
+}
+
+.para a{
+    font-size: 90px;
 }
 
 .links {
+    width: auto;
     list-style: none;
 }
 
 .links li {
     display: inline-flex;
+    width: auto;
     padding: 20px;
 }
 
